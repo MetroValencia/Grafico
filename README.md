@@ -18,3 +18,6 @@ Generar la carpeta dist que tiene todo el programa comprimido
 
 Icono usado en la aplicación:
 [Pasajeros iconos creados por shmai - Flaticon](https://www.flaticon.es/iconos-gratis/pasajeros)
+
+Configuración de webpack:
+[Configurar webpack 5](https://es.geanmarroquin.com/blog/configurar-webpack-5/)
