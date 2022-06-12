@@ -1,0 +1,47 @@
+{
+	"name": "grafico-metrovalencia",
+	"version": "0.1.0",
+	"description": "",
+	"author": {
+		"name": "Emanuel Ciotoi",
+		"email": "ciotoi.emanuel@gmail.com"
+	},
+	"main": "src/sripts/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode production",
+		"dev": "webpack-dev-server --mode development "
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MetroValencia/Recolector.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MetroValencia/Grafico/issues"
+	},
+	"homepage": "https://github.com/MetroValencia/Grafico#readme",
+	"license": "EUPL-1.2",
+	"keywords": [
+		"MetroValencia",
+		"MetroValencia Grafico",
+		"MetroValencia UI"
+	],
+	"dependencies": {
+		"echarts": "^5.3.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.2",
+		"@babel/plugin-transform-runtime": "^7.18.2",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/runtime-corejs3": "^7.18.3",
+		"babel-loader": "^8.2.5",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.2"
+	}
+}
